@@ -1,0 +1,319 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+		
+	background: 222;
+	background: #008080;
+	color: #fff;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.slider {
+		width: 100%;
+		margin: auto;
+		overflow: hidden;
+		height: 188px;
+
+		}
+
+.slider ul {
+		display: flex;
+		padding: 0;
+		width: 300%;
+	
+		animation: cambio 20s infinite alternate;
+	
+		}
+
+.slider li {
+		width: 100%;
+		list-style: none;
+		}
+
+.slider img {
+		width: 100%;
+		height:40vh;
+		
+		}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	30% {margin-left: 0;}
+	
+	35% {margin-left: -100%;}
+	65% {margin-left: -100%;}
+	
+	70% {margin-left: -200%;}
+	100% {margin-left: -200%;}
+	
+}
+
+
+eader #cabecera{
+
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url("../pics/banner2.jpg") ;
+	height: 188px;
+	}
+
+nav{
+	
+	font-weight: bold;
+
+}
+
+nav ul{
+	margin:0;
+	padding: 0;
+	
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 2px;
+}
+
+nav ul li a{
+	color:#00FFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+
+nav ul li a:hover
+{
+	color:#fff;
+	cursor:pointer;
+}
+
+nav ul li a::before{
+	content:'';
+	display:block;
+	height:5px;
+	background: #00FFFF;
+
+	width:0;
+	transition: all ease-in 250ms;
+	top: 18px;
+}
+
+nav ul li a:hover::before{
+width: 100%;
+
+}
+
+section{
+	padding: 10px;
+	display: inline-block;
+	vertical-align: top;
+	width: 70%;
+
+}
+
+section #cuerpo p{
+	font-family: tahoma, geneva, sans-serif;
+	font-size: 12px;
+}
+
+section #cuerpo img{
+	margin:0;
+	float:center;
+	width:100%;
+	height: 50%;
+}
+
+.innerbox{
+	-moz-box-shadow:1px 1px 3px #292929;
+	-webkit-box-shadow:1px 1px 3px #292929;
+	box-shadow: 2px 2px 3px #292929;
+}
+
+
+
+p{
+font-family: san-serif;
+font-size: 22px;
+text-align: center;
+color:#fff;
+}
+
+aside{
+	display: inline-block;
+	width: 20%;
+
+}
+
+.login-box .avatar{
+	width: 100px;
+	height:100px;
+	border-radius: 25px;
+	position: absolute;
+	top: 200px;
+	left: calc(100% - 160px);
+	
+}
+
+.login-box{
+	width: 230px;
+	height: 420px;
+	
+	color:#fff;
+	top:50%;
+
+	
+	box-sizing: border-box;
+	padding: 70px 30px;
+
+}
+
+.login-box h1{
+
+	margin: 0;
+	padding:0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.login-box label{
+	margin: 0;
+	padding:0;
+	font-weight: bold;
+	display: block;
+}
+
+.login-box input{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"]{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height:40px;
+	color:#fff;
+	font-size: 16px;
+}
+
+.login-box input[type="submit"]{
+	border:none;
+	outline:none;
+	height:40px;
+	background: b80f22;
+	background: orange;
+	color: #b80f22;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.login-box a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color:darkgrey;
+}
+
+.login-box a:hover{
+color:#fff;
+}
+
+footer{
+	position: relative;
+	
+	height: 20px;
+	padding: 5px 0px;
+	clear: both;
+	
+	text-align: center;
+	background: #b80f22;
+}
+
+
+#pie{
+	font-family: tahoma, geneva, sans-serif;
+
+	font-size: 12px;
+	margin: 0;
+	padding:0;
+	font-weight: bold;
+	display: block;
+	background: #224;
+}
+
+#pie p{
+	font-size: 14px;
+	color:white;
+}
+
+/*acceso.html*/
+
+section #image-uno{
+	position: absolute;
+	
+	bottom: 30px;
+
+}
+
+section #image-dos{
+	position: absolute;
+	right: 150px;
+	bottom: 30px;
+
+}
+
+section #image-tres{
+	position: absolute;
+	top: 430px;
+	bottom: 60px;
+}
+
+section #image-cuatro{
+	position: absolute;
+	top: 430px;
+	bottom: 60px;
+	right: 150px;
+}
+
+
+#menu-footer{
+	position: relative;
+	
+	height: 20px;
+	padding: 5px 0px;
+	clear: both;
+	
+	text-align: center;
+	background: #b80f22;
+	top: 220px;
+}
+
+
+#pie{
+	font-family: tahoma, geneva, sans-serif;
+
+	font-size: 12px;
+	margin: 0;
+	padding:0;
+	font-weight: bold;
+	display: block;
+	background: #224;
+	top: 230px;
+}
+
+#pie p{
+	font-size: 14px;
+	color:white;
+	top: 240px;
+}
