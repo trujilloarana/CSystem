@@ -92,7 +92,7 @@ if($rows>0){
   header("location:persen/acceso.php");
 
 }else{
-  $error="EL NOMBRE SON INCORRECTO";
+  $error="EL NOMBRE ES INCORRECTO";
 }
 
 }
